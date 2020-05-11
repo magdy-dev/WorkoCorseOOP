@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73538e13-6a58-494d-af45-cb5a3309b7aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controler/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controler/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/impl/DeactivateCommandCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/impl/DeactivateCommandCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/impl/RegisterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/impl/RegisterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/connection/ConnBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/connection/ConnBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/AddressDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/AddressDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/AuthorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/AuthorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/BasketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/BasketDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/CategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/ClosetDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/ClosetDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/LibraryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/LibraryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/OrderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/ShelfDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/ShelfDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/TransactionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/TransactionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Shelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Shelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CURDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CURDService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/BasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/BasketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/ClosetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/ClosetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/LibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/ShelfService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/ShelfService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/V1__CREATE_SCHEME.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/V1__CREATE_SCHEME.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/V1__INSERT_DATA.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/V1__INSERT_DATA.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controler/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controler/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/V1__CREATE_SCHEME.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/V1__CREATE_SCHEME.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/V1__INSERT_DATA.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/V1__INSERT_DATA.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/impl/DeactivateCommandCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/impl/DeactivateCommandCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/impl/RegisterCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/impl/RegisterCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/connection/ConnBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/connection/ConnBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/AccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/AddressDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/AddressDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/AuthorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/AuthorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/BasketDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/BasketDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/BookDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/CategoryDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/CategoryDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/ClosetDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/ClosetDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/LibraryDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/LibraryDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/OrderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/OrderDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/ShelfDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/ShelfDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/TransactionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/TransactionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/impl/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/impl/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Shelf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Shelf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/CURDService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/CURDService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/AddressService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/BasketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/BasketService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/ClosetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/ClosetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/LibraryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/LibraryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/ShelfService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/ShelfService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/TransactionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/UserService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aJUzulRcDt7ZSZtb11FXOxo1JV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kamel-Zyadeh\Desktop\library\src\main\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kamel-Zyadeh\Desktop\library\src\main\resources" />
+      <recent name="C:\Users\Kamel-Zyadeh\Desktop\library\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Controller">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controler.Controller" />
+      <module name="library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Controler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoDB" />
+      <module name="library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.DemoDB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73538e13-6a58-494d-af45-cb5a3309b7aa" name="Default Changelist" comment="" />
+      <created>1586453455579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586453455579</updated>
+      <workItem from="1586453459421" duration="13934000" />
+      <workItem from="1587530379108" duration="469000" />
+      <workItem from="1587531353386" duration="897000" />
+      <workItem from="1587719727678" duration="140000" />
+      <workItem from="1587762858880" duration="11115000" />
+      <workItem from="1587847167208" duration="348000" />
+      <workItem from="1588772143188" duration="28491000" />
+      <workItem from="1588930389029" duration="481000" />
+      <workItem from="1588930905377" duration="753000" />
+      <workItem from="1588931859983" duration="51235000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#SQL_Dialects" timestamp="1589120111207">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1589120111207" />
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588781259371">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588781259371" />
+    <state x="457" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1589138827698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="457" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1589138827698" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586463221327" />
+    <state x="438" y="201" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588860095784">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="201" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1588860095784" />
+    <state x="389" y="200" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588801226816">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="200" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1588801226816" />
+    <state x="462" y="117" key="FileChooserDialogImpl" timestamp="1587531651580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587531651580" />
+    <state width="1237" height="276" key="GridCell.Tab.0.bottom" timestamp="1589145654058">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="276" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1589145654058" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589141995777" />
+    <state width="1322" height="288" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586463228157" />
+    <state width="1237" height="276" key="GridCell.Tab.0.center" timestamp="1589145654058">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="276" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1589145654058" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589141995777" />
+    <state width="1322" height="288" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586463228157" />
+    <state width="1237" height="276" key="GridCell.Tab.0.left" timestamp="1589145654057">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="276" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1589145654057" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589141995777" />
+    <state width="1322" height="288" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586463228157" />
+    <state width="1237" height="276" key="GridCell.Tab.0.right" timestamp="1589145654058">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="276" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1589145654058" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589141995777" />
+    <state width="1322" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586463228157" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589141995779">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589141995779" />
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586463165208" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1589141995777">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589141995777" />
+    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586463165208" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1589141995777">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589141995777" />
+    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586463165208" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1589141995777">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589141995777" />
+    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586463165208" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1587533456626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587533456626" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1588931881448">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1588931881448" />
+    <state x="371" y="108" key="extract.method.dialog" timestamp="1588847727755">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="108" key="extract.method.dialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1588847727755" />
+    <state x="65" y="58" key="new project wizard" timestamp="1587530443848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="58" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587530443848" />
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1589123516653">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1589123516653" />
+    <state x="303" y="1" key="search.everywhere.popup" timestamp="1589124729985">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" key="search.everywhere.popup/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1589124729985" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/impl/AddressDAO.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/impl/BookDAO.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
